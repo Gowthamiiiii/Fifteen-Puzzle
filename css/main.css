@@ -1,0 +1,100 @@
+#conatiner {
+    position              : absolute;
+    height                : 100vh;
+    -webkit-box-pack      : center;
+    -ms-flex-pack         : center;
+    justify-content       : center;
+    align-items           : center;
+    margin-top: 200px;
+    width: 700px;
+    height: 500px;
+}
+#snake{
+	
+	 background-color:red;
+	 height:50px;
+	 width:80px;
+	text-align:center;
+}
+
+#show{
+    
+    color: blue;
+}
+#names{
+    color: coral;
+    
+}
+#user_guess{    margin-left: 30px;
+}
+#player_1_gui h1{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#player_2_gui h1{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#player_1_gui h2{
+  
+    margin-left: 40px;
+}
+#player_2_gui h2{
+   
+    margin-left: 40px;
+}
+input[type=text]#user_guess {
+  display: block;
+}
+
+html {
+    height   : 100vh;
+    overflow : scroll;
+    background-color: #107896
+}
+html #main_game_form {
+    display         : -webkit-box;
+    display         : -ms-flexbox;
+    display         : flex;
+    -ms-flex-pack   : distribute;
+    justify-content : space-around;
+	height:1000px; 
+	overflow: scroll;
+    background-color:white;
+   padding-top: 50px;
+   
+}
+#milestone{
+  margin-top: 50px;
+     background-color:white;
+      height: 1000px;
+    
+}
+
+html #start-form-wrapper {
+    display            : -webkit-box;
+    display            : -ms-flexbox;
+    display            : flex;
+    -ms-flex-pack      : distribute;
+    justify-content    : space-around;
+    -ms-flex-line-pack : center;
+    align-content      : center;
+    width: 100%;
+	margin-top: 70px;
+}
+
+html #start-form-wrapper #start-form {
+    justify-self : center;
+    text-align   : center;
+}
+
+html #start-form-wrapper #start-form input {
+    padding : 10px;
+    margin  : 10px;
+}
+
+html #start-form-wrapper #start-form #names {
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+}
