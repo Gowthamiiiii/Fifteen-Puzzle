@@ -40,9 +40,20 @@ $_SESSION['players'] = '';
 </div>
     
     
-<div class="mainBodyDiv">
-	<div class="mainContentDiv">
-	</div>
+<div style = "padding-top:5%; text-align:center" class="mainBodyDiv">
+	
+  <h1 >Welcome to the Dice Rolling Game!</h1>
+  
+  <p>Roll the dice and test your luck in this exciting game. See if you can roll the perfect combination and win big!</p>
+
+  <h2>How to Play</h2>
+  
+
+  <p>Are you ready to roll the dice and take your chances? Start playing now and see if you can become the ultimate dice roller!</p>
+
+  <button class="li3"><a class = "a5" href="milestone.php">GAME</a></button>
+</div>
+
 </div>
 
 
